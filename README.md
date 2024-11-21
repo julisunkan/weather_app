@@ -14,28 +14,23 @@ Installation
 Step 1: Clone the Repository (Optional)
 If you want to clone the repository to your local machine, run:
 
-bash
-Copy code
-git clone https://github.com/yourusername/weather-app.git
-cd weather-app
+
+git clone https://github.com/julisunkan/weather-app.git cd weather-app
 Step 2: Install Dependencies
 The app requires the requests library, which can be installed using pip:
 
-bash
-Copy code
+
 pip install requests
 Step 3: Get OpenWeatherMap API Key
 Go to OpenWeatherMap and sign up for a free account.
 After signing up, generate an API key.
 Replace the placeholder your_api_key_here in the code with your actual API key.
-python
-Copy code
-api_key = "your_api_key_here"  # Replace this with your actual API key
+
+api_key = "your_api_key_here" # Replace this with your actual API key
 Step 4: Run the App
 Once the dependencies are installed and the API key is added, run the app using Python:
 
-bash
-Copy code
+
 python weather_app.py
 The app will prompt you to enter a city name. After entering the city, it will display the current weather information for that location.
 
@@ -50,22 +45,10 @@ Wind Speed (m/s)
 Cloudiness (%)
 Example:
 
-yaml
-Copy code
-Enter the city name: London
-
-Weather Info for London:
-Temperature: 15.5°C
-Pressure: 1015 hPa
-Humidity: 76 %
-Weather: Clear sky
-Wind Speed: 3.1 m/s
-Cloudiness: 0%
+Enter the city name: London Weather Info for London: Temperature: 15.5°C Pressure: 1015 hPa Humidity: 76 % Weather: Clear sky Wind Speed: 3.1 m/s Cloudiness: 0%
 Error Handling
 If an invalid city name is provided, the app will display an error message like:
 
-arduino
-Copy code
 Invalid city name. Please check the spelling or try another city.
 License
 This project is open-source and available under the MIT License.
@@ -73,7 +56,3 @@ This project is open-source and available under the MIT License.
 Acknowledgments
 The weather data is provided by the OpenWeatherMap API.
 This app was built with the help of Python's requests library.
-You can save this content into a file named README.md in the root of your project directory. This README will provide users with clear instructions on how to set up, run, and use the weather app.
-
-
-
